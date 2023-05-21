@@ -95,7 +95,8 @@ const MainContent: FC = () => {
             </div>
             <div className='middel'>
                 <div className='form'>
-                    <div className='tip'>Click OK to log on to Web Win98</div>
+                    <div className='tip'>Click OK to log on to FullyGirl</div>
+                    <div className='tip'>Buy Pass：25c3cc.myshopify.com</div>
                     <label className='form-item'>
                         <span className='item-name'>Username</span>
                         <input type="text" value={username} onInput={e => setUsername(e.currentTarget.value)} />
